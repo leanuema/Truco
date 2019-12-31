@@ -14,7 +14,6 @@ class MasoTest {
         Maso maso = new Maso();
 
         assertNotEquals(12, maso.getCartas());
-
     }
 
     @Test
