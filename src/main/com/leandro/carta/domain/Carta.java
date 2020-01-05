@@ -17,7 +17,7 @@ public class Carta {
     }
 
     public void setNumero(int numero) {
-        if (numero<13) {
+        if (numero<=12) {
             this.numero = numero;
         }
         else {
